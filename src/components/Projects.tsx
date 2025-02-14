@@ -3,6 +3,30 @@ import { ExternalLink, Github } from 'lucide-react';
 
 const projects = [
   {
+    title: 'Job Application Tracker',
+    description: 'A full-stack web application to track job applications and interviews and obtain meaningful statistics and insights.',
+    image: 'https://private-user-images.githubusercontent.com/38813206/413329816-4fbdd012-2cc1-48b0-ad1e-a6aeb220f972.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mzk1NDAxMDksIm5iZiI6MTczOTUzOTgwOSwicGF0aCI6Ii8zODgxMzIwNi80MTMzMjk4MTYtNGZiZGQwMTItMmNjMS00OGIwLWFkMWUtYTZhZWIyMjBmOTcyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMTQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjE0VDEzMzAwOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTk5YzRmNmZhN2FiNmYzY2IzMTAzOWVhYjViYTU0YmYzYTU5MTliMTc4ZmEyM2U2MjQwODhjY2ZjMmI2MDczZTImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.5FSE6mNOZw6ekj1a-eVcEdqJSBzYNZdrkkmalYHq-_Y?auto=format&fit=crop&q=80&w=800&h=500',
+    tech: ['React', 'Node.js', 'PostgreSQL', 'Tailwind CSS'],
+    liveUrl: '#',
+    githubUrl: 'https://github.com/anoodleReza/application-tracker'
+  },
+  {
+    title: 'Realtime AI Speech Emotion Recognition with Music Recommendation',
+    description: 'A Realtime music recommendation system using real-time user emotions classified using deep learning methods.',
+    image: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.simplypsychology.org%2Fprimary-and-secondary-emotions.html&psig=AOvVaw0DkI6O1nl0l25ZmZw-Jbnt&ust=1739626252346000&source=images&opi=89978449?auto=format&fit=crop&q=80&w=800&h=500',
+    tech: ['Python', 'Deep Learning', 'Data Science'],
+    liveUrl: '#',
+    githubUrl: ''
+  },
+  {
+    title: 'Realtime AI assistant',
+    description: 'AI assistant using OpenAI and elevnlabs with a webapp dashboard.',
+    image: 'https://images.unsplash.com/photo-1620712943543-bcc4688e7485?q=80&w=1965?auto=format&fit=crop&q=80&w=800&h=500',
+    tech: ['OpenAI', 'Elevenlabs', 'Java', 'NextJS', 'LLM'],
+    liveUrl: '#',
+    githubUrl: 'https://github.com/anoodleReza/Nu-v2-Dashboard'
+  },
+  {
     title: 'Food Delivery Platform',
     description: 'Greenery is an all-in-one application for customers, couriers, and merchants built using React Native and Firebase',
     image: 'https://plus.unsplash.com/premium_photo-1661526833843-248a2f8fe129?auto=format&fit=crop&q=80&w=800&h=500',
@@ -25,15 +49,8 @@ const projects = [
     tech: ['Unity', 'C#', 'Game jam'],
     liveUrl: 'https://chamiira.itch.io/cambrian-explosion',
     githubUrl: '#'
-  },
-  {
-    title: 'Realtime AI assistant',
-    description: 'AI assistant using OpenAI and elevnlabs with a webapp dashboard.',
-    image: 'https://images.unsplash.com/photo-1620712943543-bcc4688e7485?q=80&w=1965?auto=format&fit=crop&q=80&w=800&h=500',
-    tech: ['OpenAI', 'Elevenlabs', 'Java', 'NextJS', 'LLM'],
-    liveUrl: '#',
-    githubUrl: 'https://github.com/anoodleReza/Nu-v2-Dashboard'
   }
+
 ];
 
 export default function Projects() {

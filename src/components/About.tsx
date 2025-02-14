@@ -28,7 +28,7 @@ export default function About() {
                 <div>
                   <h3 className="text-xl font-semibold mb-1">Technical Expertise</h3>
                   <p className="text-gray-600">
-                    Specialized in React, Node.js, and modern web technologies.
+                    Focused in learning React, Node.js, and modern web technologies.
                   </p>
                 </div>
               </div>
@@ -40,7 +40,7 @@ export default function About() {
                 <div>
                   <h3 className="text-xl font-semibold mb-1">Continuous Learning</h3>
                   <p className="text-gray-600">
-                    Always staying updated with the latest tech trends and best practices.
+                    Always staying updated with the latest tech trends and learning new technologies.
                   </p>
                 </div>
               </div>
